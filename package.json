@@ -1,0 +1,10 @@
+{
+  "name": "creative-studio-site",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "python3 -m http.server 4173 --bind 127.0.0.1",
+    "build": "node scripts/build.mjs",
+    "preview": "python3 -m http.server 4174 --bind 127.0.0.1 --directory dist"
+  }
+}
